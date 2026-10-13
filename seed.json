@@ -1,0 +1,54 @@
+{
+  "students": [
+    {"id":"NS-2401","name":"Aaliyah Johnson","class":"Grade 9A","guardian":"Tomi Johnson","phone":"+234 803 555 0191","email":"tomi.johnson@example.com","status":"Active"},
+    {"id":"NS-2402","name":"Daniel Okonkwo","class":"Grade 10B","guardian":"Chika Okonkwo","phone":"+234 806 401 2258","email":"chika.okonkwo@example.com","status":"Active"},
+    {"id":"NS-2403","name":"Maya Adeyemi","class":"Grade 11A","guardian":"Bola Adeyemi","phone":"+234 809 211 7034","email":"bola.adeyemi@example.com","status":"Active"},
+    {"id":"NS-2404","name":"Noah Williams","class":"Grade 9A","guardian":"Grace Williams","phone":"+234 802 443 8910","email":"grace.williams@example.com","status":"Active"},
+    {"id":"NS-2405","name":"Zara Ibrahim","class":"Grade 12A","guardian":"Sani Ibrahim","phone":"+234 805 919 4472","email":"sani.ibrahim@example.com","status":"Active"},
+    {"id":"NS-2406","name":"Emeka Nwosu","class":"Grade 10A","guardian":"Ifeoma Nwosu","phone":"+234 814 232 1009","email":"ifeoma.nwosu@example.com","status":"Active"}
+  ],
+  "results": [
+    {"id":"R-1024","class":"Grade 9A","subject":"Mathematics","teacher":"Kemi Adebayo","date":"2026-10-12","status":"Approved","term":"First term","scores":[{"studentId":"NS-2401","studentName":"Aaliyah Johnson","score":86},{"studentId":"NS-2404","studentName":"Noah Williams","score":91}]},
+    {"id":"R-1023","class":"Grade 11B","subject":"Biology","teacher":"David Mensah","date":"2026-10-12","status":"Pending","term":"First term","scores":[]},
+    {"id":"R-1022","class":"Grade 10A","subject":"English Language","teacher":"Fatima Bello","date":"2026-10-11","status":"Pending","term":"First term","scores":[]},
+    {"id":"R-1021","class":"Grade 12A","subject":"Physics","teacher":"Chidi Eze","date":"2026-10-10","status":"Approved","term":"First term","scores":[]}
+  ],
+  "assessments": [
+    {"id":"AS-310","title":"Mid-term Mathematics","class":"Grade 9A","subject":"Mathematics","date":"2026-10-19","type":"Examination","status":"Scheduled"},
+    {"id":"AS-309","title":"Cell Biology Quiz","class":"Grade 11B","subject":"Biology","date":"2026-10-20","type":"Quiz","status":"Scheduled"},
+    {"id":"AS-308","title":"Essay: My Community","class":"Grade 10A","subject":"English Language","date":"2026-10-15","type":"Assignment","status":"Open"},
+    {"id":"AS-307","title":"Forces and Motion","class":"Grade 12A","subject":"Physics","date":"2026-10-08","type":"Test","status":"Completed"}
+  ],
+  "attendance": [
+    {"id":"AT-1201","date":"2026-10-12","class":"Grade 9A","present":28,"absent":2,"teacher":"Kemi Adebayo","status":"Submitted"},
+    {"id":"AT-1202","date":"2026-10-12","class":"Grade 10A","present":25,"absent":1,"teacher":"Fatima Bello","status":"Submitted"},
+    {"id":"AT-1203","date":"2026-10-12","class":"Grade 11B","present":21,"absent":3,"teacher":"David Mensah","status":"Submitted"},
+    {"id":"AT-1204","date":"2026-10-12","class":"Grade 12A","present":24,"absent":0,"teacher":"Chidi Eze","status":"Submitted"}
+  ],
+  "timetable": [
+    {"id":"TT-101","day":"Monday","time":"09:00","class":"Grade 9A","subject":"Mathematics","teacher":"Kemi Adebayo","room":"Room 204"},
+    {"id":"TT-102","day":"Monday","time":"10:30","class":"Grade 11B","subject":"Biology","teacher":"David Mensah","room":"Lab 2"},
+    {"id":"TT-103","day":"Tuesday","time":"09:00","class":"Grade 10A","subject":"English Language","teacher":"Fatima Bello","room":"Room 103"},
+    {"id":"TT-104","day":"Wednesday","time":"11:00","class":"Grade 12A","subject":"Physics","teacher":"Chidi Eze","room":"Lab 1"},
+    {"id":"TT-105","day":"Thursday","time":"12:00","class":"Grade 9A","subject":"Creative Arts","teacher":"Amara Okafor","room":"Studio 1"}
+  ],
+  "fees": [
+    {"id":"INV-8801","student":"Aaliyah Johnson","studentId":"NS-2401","class":"Grade 9A","description":"First term tuition","amount":185000,"due":"2026-10-15","status":"Paid"},
+    {"id":"INV-8802","student":"Daniel Okonkwo","studentId":"NS-2402","class":"Grade 10B","description":"First term tuition","amount":210000,"due":"2026-10-15","status":"Pending"},
+    {"id":"INV-8803","student":"Maya Adeyemi","studentId":"NS-2403","class":"Grade 11A","description":"First term tuition","amount":225000,"due":"2026-10-15","status":"Overdue"},
+    {"id":"INV-8804","student":"Noah Williams","studentId":"NS-2404","class":"Grade 9A","description":"Lab materials","amount":25000,"due":"2026-10-20","status":"Pending"}
+  ],
+  "messages": [
+    {"id":"MSG-501","from":"Mrs. Johnson","audience":"School administration","subject":"Question about the term calendar","date":"2026-10-12","body":"Hello, could you please share the updated term calendar? Thank you.","status":"Unread"},
+    {"id":"MSG-500","from":"Mr. Okonkwo","audience":"Grade 10B","subject":"Daniel's recent attendance","date":"2026-10-11","body":"I wanted to check in about Daniel's recent attendance. Please let me know when would be a good time to talk.","status":"Unread"},
+    {"id":"MSG-499","from":"Admissions office","audience":"School administration","subject":"New student applications","date":"2026-10-11","body":"There are three new applications ready for review.","status":"Unread"},
+    {"id":"MSG-498","from":"Mrs. Adeyemi","audience":"Grade 11A","subject":"Science fair permission form","date":"2026-10-10","body":"Please send home another copy of the science fair permission form.","status":"Read"}
+  ],
+  "enquiries": [],
+  "staff": [
+    {"id":"ST-201","name":"Kemi Adebayo","role":"Mathematics teacher","subject":"Mathematics","email":"kemi.adebayo@northstaracademy.edu","phone":"+234 803 555 0101","status":"Active","className":"Grade 9A"},
+    {"id":"ST-202","name":"David Mensah","role":"Science teacher","subject":"Biology","email":"david.mensah@northstaracademy.edu","phone":"+234 803 555 0102","status":"Active","className":"Grade 11B"},
+    {"id":"ST-203","name":"Fatima Bello","role":"English teacher","subject":"English Language","email":"fatima.bello@northstaracademy.edu","phone":"+234 803 555 0103","status":"Active","className":"Grade 10A"},
+    {"id":"ST-204","name":"Chidi Eze","role":"Physics teacher","subject":"Physics","email":"chidi.eze@northstaracademy.edu","phone":"+234 803 555 0104","status":"Active","className":"Grade 12A"}
+  ]
+}

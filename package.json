@@ -1,0 +1,17 @@
+{
+  "name": "northstar-school-portal",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Northstar Academy public school website and role-based school portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+northstar-school.sqlite
+northstar-school.sqlite-shm
+northstar-school.sqlite-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
+npm-debug.log*
